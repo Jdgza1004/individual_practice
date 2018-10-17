@@ -1,5 +1,5 @@
 =begin
-INTINGERS
+INTINGERS#3
 
 irb starts ruby in terminal
 .class tells you the numbers what is it (integers)
@@ -9,7 +9,7 @@ bignum is a larger number
 .abs gives you absolute number 
 .next gives you the next number
 
-FLOATS
+FLOATS#4
 
 float is a decimal.
 .class tells you what it is 
@@ -20,7 +20,7 @@ you have to be picky with decimals, if you know it will be a decimal value you h
 .floor round down to whole number
 .ceil rounds up to next whole number
 
-STRINGS
+STRINGS#5
 
 letter word sentence anything thats written in characters. 
 returns results in double quotes when not in output
@@ -50,7 +50,8 @@ single quotes very literal (basically double is better!)
 
 you can always put these methods together
 
-ARRAYS
+ARRAYS#6
+
 collection of objects in a order, its made its made.
 you can call for each part of the array. 
 
@@ -95,6 +96,72 @@ data_set = [ ]
 
 
 MANIPULATE ARRAYS #7
+
+name.inspect gives you a string of what is that array or name!
+
+if you just type out just the title of the array it gives you what it says in terminal
+
+METHODSSS
+
+.inspect
+gives you structure of array
+
+.to_s 
+makes it into a string, sandwiches everything together
+
+.join
+you can specify what to join it with, so basically instead of giving your .to_s that smooches it together you can add a space string “__” or a comma “ , “  and it will draw that
+warning!__make sure it is in parentheses. 
+
+.split()
+this one is tricky to understand but basically ya going to call something out. like the comma as the example said
+Call out based on what you chuck it to do. 
+by space, word, even letter, does it. 
+
+ 
+.sort 
+sorts the array by alphabet or number 
+NOT THE COMPLEX KINDS only things that agree
+
+.uniq
+unique- doesn’t show duplicates
+
+.uniq!
+kills the duplicates and orders them by order
+
+.delete_at(pocket number)
+deletes pocket and doesn’t leave a nil, or empty pocket 
+THIS IS FOR POCKET ONLY
+
+.delete(information in pocket)
+deletes the thing, you don’t have to know the position
+
+.push works as <<
+adding something to end of array
+
+.pop 
+pops off the last thing of the array, 
+
+ehhhhhhhhh (*****)
+.shift
+shifts right by one 
+
+.unshift(1)
+adds it back?
+
+
+you can much add arrays together like adding strings 
+if you already made two just put a plus in the middle 
+or if you want to add more to existing then yeah just do it plainly
+
+array + array2
+array + [new, array, definition]
+
+array will stay the same name just new added information afterwards doing this, so if you want to rename it do 
+rename = array + array2
+rename = array + [new, array, definition]
+
+you can subtract by pocket value or by array part so actual brackets and pocket position. 
 
 
 
